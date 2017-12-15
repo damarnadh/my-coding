@@ -98,7 +98,7 @@ void rlliteration( struct node *a )
           prev = current;
           current = next;
      }
-     a=prev;
+     a = prev;
      printll(a);
  }
  void rllrecursion(struct node *a)
@@ -109,7 +109,7 @@ void rlliteration( struct node *a )
       {
            return;
       }
-      f=a;
+      f = a;
       r = f->next;
       if(r == NULL)
       {
