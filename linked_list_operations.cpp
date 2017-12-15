@@ -32,15 +32,15 @@ void printll(struct node *n)
           n = n->next;
      }
 }
-void middle(struct node*a)
+void middle(struct node *a)
 {
-     struct node*x = a;
-     struct node*y = a;
+     struct node *x = a;
+     struct node *y = a;
      if(a->next == NULL)
      {
           return;
      }
-     while(x!=NULL&x->next!=NULL)
+     while(x != NULL & x->next != NULL)
      {
           x = x->next->next;
           y = y->next; 
